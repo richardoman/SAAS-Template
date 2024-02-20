@@ -32,7 +32,6 @@ export const connectToDatabase = async () => {
         mongoose.connect(
             MONGODB_URL, 
             {
-                dbName: 'SAAS Template',
                 bufferCommands: false,
             }
         );
